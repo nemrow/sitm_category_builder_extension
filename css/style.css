@@ -1,0 +1,61 @@
+.cat-builder-container{
+  background-color: #fff;
+  border: 2px solid #000;
+  position: fixed;
+  top: 5%;
+  right: 10px;
+  z-index: 9999999;
+  height: 640px;
+  width: 300px;
+  padding: 10px;
+}
+
+.cat-builder-json-viewer{
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 550px;
+  overflow: scroll;
+  display: none;
+  background-color: #fff;
+}
+
+.indi-cat-container{
+  padding: 5px 10px;
+}
+
+.cat-builder-content-outer-container{
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 550px;
+  overflow: scroll;
+}
+
+.cat-builder-content-container{
+  position: relative;
+  height: auto;
+}
+
+.cat-builder-close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit-button, .hide-json{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.x-button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}

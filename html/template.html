@@ -1,0 +1,27 @@
+<script id="cat-builder-container-template" type="text/x-handlebars-template">
+  <div class="cat-builder-container" id="cat-builder-container">
+    <h1>Cat Builder</h1>
+    <span class="cat-builder-close x-button" id="cat-builder-close">X</span>
+    <div class="cat-builder-content-outer-container">
+      <div class="cat-builder-content-container" id="cat-builder-content-container">
+
+      </div>
+    </div>
+    <button class="submit-button" id="submit-button">Build JSON</button>
+    <div class="cat-builder-json-viewer" id="cat-builder-json-viewer">
+      <p class="cat-builder-json-content-container" id="cat-builder-json-content-container">slsjhlskj</p>
+      <button class="hide-json x-button" id="hide-json">Hide JSON</button>
+    </div>
+  </div>
+</script>
+
+<script id="indi-cat-container-template" type="text/x-handlebars-template">
+  <div class="indi-cat-container indi-cat-container-id-{{id}}" id="indi-cat-container" data-cat-id="{{id}}">
+    <label>name:</label><input class="cat-name" type='text' value='{{name}}'><br>
+    <label>clothing type:</label>{{{clothingTypeSelections clothingType}}}<br>
+    <label>dept:</label>{{{departmentSelections dept}}} <br>
+    <label>url:</label><input class="cat-url" type='text' value='{{url}}'>
+    <span class="remove-cat x-button">X</span>
+    <hr>
+  </div>
+</script>

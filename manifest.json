@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/photo.png"
+   },
+  "name": "SITM Cat Builder",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "storage"
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/photo.png"
+    }
+  },
+  "web_accessible_resources": [
+    "html/template.html"
+  ]
+}
